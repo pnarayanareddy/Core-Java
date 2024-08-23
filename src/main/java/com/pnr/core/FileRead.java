@@ -8,7 +8,7 @@ public class FileRead {
  
 	public static void main(String[] args) throws IOException {
 
-		FileReader in = new FileReader("C:/Users/pnara/OneDrive/Desktop/Task/Data.tex");
+		FileReader in = new FileReader("C:/Users/pnara/OneDrive/Desktop/Task/email_id.tex");
 		BufferedReader br = new BufferedReader(in);
 
 		while (br.readLine() != null) {
